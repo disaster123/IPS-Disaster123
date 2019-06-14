@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class IPS_LandroidBridgeSend extends IPSModule
+class IPS_MQTT_Sender extends IPSModule
 {
 
     public function Create()
