@@ -19,7 +19,7 @@ class IPS_MQTT_Sender extends IPSModule
         $this->ConnectParent('{C6D2AEB3-6E1F-4B2E-8E69-3A1A00246850}');
     }
 
-    public function Send($jsonstr)
+    public function publish($jsonstr)
     {
 	$this->SendDataToParent($jsonstr);
     }
